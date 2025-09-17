@@ -1,0 +1,22 @@
+CONCLUSIONES Y HALLAZGOS DEL EJERCICIO
+--------------------------------------
+
+1. El flujo de compra en Demoblaze se pudo automatizar exitosamente utilizando Serenity BDD con Cucumber.
+
+2. Se identificaron los siguientes aspectos relevantes:
+   - El sitio utiliza alertas (pop-ups) al agregar productos al carrito. 
+     Fue necesario manejar las alertas para continuar con el flujo.
+   - La confirmación de compra aparece en un modal con el número de orden 
+     y monto total, lo cual permite validar el resultado de la transacción.
+   - El formulario de compra requiere datos básicos: nombre, país, ciudad, 
+     tarjeta, mes y año. Para efectos de la prueba, se ingresaron datos 
+     ficticios válidos.
+
+3. El framework Serenity BDD generó un reporte detallado que facilita 
+   la lectura de los pasos ejecutados, capturas de pantalla y resultados 
+   de la prueba.
+
+4. El ejercicio demuestra la factibilidad de automatizar flujos E2E 
+   (end-to-end) en aplicaciones web utilizando un enfoque BDD.
+
+--------------------------------------
