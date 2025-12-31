@@ -1,4 +1,4 @@
-name: learn CI 1
+name: learn CD 1
 
 on:
   push:
@@ -34,7 +34,7 @@ jobs:
           FINAL_CMD="$CMD > /dev/null 2>&1 &"
           eval "$FINAL_CMD"
           PID=$!
-          for i in {1..360}; do
+          for i in {1..330}; do
             echo "."
             sleep $((RANDOM % 11 + 35))
           done
